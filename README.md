@@ -47,6 +47,41 @@ Silent-Logger-Keylogger/
 --> pip install pynput
 
 3. **Run the script**:
+   🪟 On Windows
+
+  Steps:
+Install pynput (only once):
+pip install pynput
+
+Navigate to the folder:
+cd path\to\Silent-Logger-Keylogger
+
+Run the script:
+python main.py
+
+Press Esc to stop logging. Check the file key_log.txt.
+
+🐧 On Linux
+You may need sudo for keyboard capture depending on distro/security.
+
+  Steps:
+Install Python 3 and pip (if not already):
+
+sudo apt update
+sudo apt install python3 python3-pip
+
+Install pynput:
+pip3 install pynput
+
+Navigate to the project folder:
+cd /path/to/Silent-Logger-Keylogger
+
+Run it:
+python3 main.py
+
+Press Esc to stop it. Logs will be saved in key_log.txt.
+
+⚠️ Note: Some Linux environments (like Wayland on Ubuntu 22+) restrict keylogging for security. Use X11 session or try with sudo.
 
 5. **Press `Esc`** to stop the keylogger and close the session.
 

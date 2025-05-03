@@ -1,4 +1,3 @@
-  Silent-Logger-Keylogger
   🔍 Silent Logger – Python Keylogger
 
 **Silent Logger** is a lightweight Python-based keylogger designed for ethical hacking demonstrations and cybersecurity education. It records every keystroke made by the user and stores it in a local log file. The keylogger runs silently in the background and gracefully exits when the `Esc` key is pressed.

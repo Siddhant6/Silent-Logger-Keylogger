@@ -1,17 +1,17 @@
-# Silent-Logger-Keylogger
-# 🔍 Silent Logger – Python Keylogger
+  Silent-Logger-Keylogger
+  🔍 Silent Logger – Python Keylogger
 
 **Silent Logger** is a lightweight Python-based keylogger designed for ethical hacking demonstrations and cybersecurity education. It records every keystroke made by the user and stores it in a local log file. The keylogger runs silently in the background and gracefully exits when the `Esc` key is pressed.
 
 ---
 
-## ⚠️ Disclaimer
+   ⚠️ Disclaimer
 
 This tool is intended **only for ethical and educational use**. Unauthorized use of keyloggers on systems or individuals without consent is illegal and unethical.
 
 ---
 
-## 📌 Features
+   📌 Features
 
 - ✅ Real-time key capture
 - ✅ Stores logs in `key_log.txt` with timestamps
@@ -21,7 +21,7 @@ This tool is intended **only for ethical and educational use**. Unauthorized use
 
 ---
 
-## 🛠️ Tech Stack & Tools
+   🛠️ Tech Stack & Tools
 
 | Technology | Purpose                        |
 |------------|--------------------------------|
@@ -33,7 +33,7 @@ This tool is intended **only for ethical and educational use**. Unauthorized use
 
 ---
 
-## 📂 File Structure
+   📂 File Structure
 
 Silent-Logger-Keylogger/
 ├── main.py # Keylogger script
@@ -42,7 +42,7 @@ Silent-Logger-Keylogger/
 
 ---
 
-## ▶️ How to Run
+   ▶️ How to Run
 
 1. **Install dependencies**:
 --> pip install pynput
@@ -55,7 +55,24 @@ Silent-Logger-Keylogger/
 
 ---
 
-## 🧠 Use Case
+💡 Example Output (key_log.txt)
+
+ New Session Starts
+h
+e
+l
+l
+o
+Key.space
+w
+o
+r
+l
+d
+
+---
+
+  🧠 Use Case
 
 This project helps learners understand:
 
